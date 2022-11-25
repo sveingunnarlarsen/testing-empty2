@@ -23,7 +23,7 @@
 	"documentation": [],
 	"name": "test-jwt",
 	"endpoint": "/api/serverscript/test-jwt",
-	"ver": "22.11.10.137",
+	"ver": "22.11.25.1018",
 	"version": null,
 	"description": null,
 	"mediaType": null,
