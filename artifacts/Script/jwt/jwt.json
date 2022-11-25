@@ -1,0 +1,27 @@
+{
+	"id": "d13fe158-ef60-ed11-94d8-7085c23ef572",
+	"createdAt": "2022-11-10T12:01:13.286Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "49F5FB80-EF60-ED11-94D8-7085C23EF572",
+			"name": "jsonwebtoken",
+			"contextname": "jsonwebtoken",
+			"path": "jsonwebtoken"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "jwt",
+	"ver": "22.11.10.138",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "d03fe158-ef60-ed11-94d8-7085c23ef572",
+	"package": "94ab6f71-d560-ed11-94d8-7085c23ef572"
+}

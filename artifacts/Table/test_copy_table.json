@@ -1,0 +1,102 @@
+{
+	"id": "baa5f016-0a6b-ed11-94da-7085c23ef572",
+	"createdAt": "2022-11-23T08:37:41.163Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"fields": [
+		{
+			"id": "0823e925-7ff3-4321-d9af-258645643b19",
+			"fieldName": "test1",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "f714c6e8-590f-4b6e-a346-3255264c43e7",
+			"fieldName": "test2",
+			"fieldType": "boolean",
+			"isUnique": false
+		},
+		{
+			"id": "2ca3a165-4822-4544-c2d9-70518190f182",
+			"fieldName": "test3",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "0ee20489-4b1f-4cf2-a7a2-169e51a0e857",
+			"fieldName": "fk",
+			"fieldType": "uuid",
+			"isUnique": false
+		}
+	],
+	"indices": [
+		{
+			"id": "3d0348b9-84f5-4bb3-9899-9e0ffaf7b229",
+			"name": "IDX_532587109899328f65eef47ddf",
+			"columns": [
+				{
+					"id": "2ca3a165-4822-4544-c2d9-70518190f182",
+					"fieldName": "test3",
+					"fieldType": "smalltext",
+					"isUnique": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [
+		{
+			"id": "32d1b37e-da2a-4db9-fa23-9f584c8398f3",
+			"name": "FK_bada36a3580d67b0f327660b9b5",
+			"referencedTable": "table_with_default",
+			"referencedTableId": "137B1257-D760-ED11-94D8-7085C23EF572",
+			"referencedTableColumns": [
+				{
+					"id": "fce114da-f4d4-4beb-e9c2-26a46b661bd1",
+					"fieldName": "City",
+					"fieldType": "text",
+					"isUnique": false,
+					"default": "",
+					"isNullable": true
+				},
+				{
+					"id": "ad6286ee-fb7d-4fc3-cbed-14c789630208",
+					"fieldName": "Country",
+					"fieldType": "text",
+					"isUnique": false,
+					"default": "",
+					"isNullable": true
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "0ee20489-4b1f-4cf2-a7a2-169e51a0e857",
+					"fieldName": "fk",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"referencedColumnName": "id"
+				}
+			]
+		}
+	],
+	"name": "test_copy_table",
+	"description": null,
+	"ver": "22.11.23.1011",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "94ab6f71-d560-ed11-94d8-7085c23ef572",
+	"rolesRead": [
+		{
+			"id": "45bc76e8-e460-ed11-94d8-7085c23ef572",
+			"name": "Display",
+			"ver": "22.11.10.1146"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "5d2929a3-d360-ed11-94d8-7085c23ef572",
+			"name": "Admin",
+			"ver": "22.11.10.942"
+		}
+	]
+}

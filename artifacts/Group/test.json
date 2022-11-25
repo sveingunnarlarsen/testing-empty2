@@ -1,0 +1,15 @@
+{
+	"id": "c76cdf61-756a-ed11-94da-7085c23ef572",
+	"createdAt": "2022-11-22T14:53:19.386Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"name": "test",
+	"description": null,
+	"ver": null,
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "94ab6f71-d560-ed11-94d8-7085c23ef572",
+	"roles": []
+}

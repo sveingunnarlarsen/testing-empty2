@@ -1,0 +1,33 @@
+{
+	"id": "137b1257-d760-ed11-94d8-7085c23ef572",
+	"createdAt": "2022-11-10T09:09:12.740Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "fce114da-f4d4-4beb-e9c2-26a46b661bd1",
+			"fieldName": "City",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "ad6286ee-fb7d-4fc3-cbed-14c789630208",
+			"fieldName": "Country",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "table_with_default",
+	"description": "Table with default value",
+	"ver": "22.11.10.1024",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "94ab6f71-d560-ed11-94d8-7085c23ef572",
+	"rolesRead": [],
+	"rolesWrite": []
+}

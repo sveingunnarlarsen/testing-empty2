@@ -1,0 +1,117 @@
+{
+	"id": "94ab6f71-d560-ed11-94d8-7085c23ef572",
+	"createdAt": "2022-11-10T08:55:37.593Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/sveingunnarlarsen/testing-empty2.git"
+	},
+	"name": "Testing",
+	"description": "Artifacts used for testing various functionality",
+	"ver": "22.11.25.104",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "9e896bfa-dc6b-ed11-94da-7085c23ef572",
+			"application": "testcollab",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "c0498869-6c6a-ed11-94da-7085c23ef572",
+			"name": "vg",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a7bb5e46-f060-ed11-94d8-7085c23ef572",
+			"name": "test-jwt",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "baa5f016-0a6b-ed11-94da-7085c23ef572",
+			"name": "test_copy_table",
+			"description": null
+		},
+		{
+			"id": "391f2979-0f6b-ed11-94da-7085c23ef572",
+			"name": "test_copy_table_copy",
+			"description": null
+		},
+		{
+			"id": "137b1257-d760-ed11-94d8-7085c23ef572",
+			"name": "table_with_default",
+			"description": "Table with default value"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "d13fe158-ef60-ed11-94d8-7085c23ef572",
+			"name": "jwt",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "d03fe158-ef60-ed11-94d8-7085c23ef572",
+			"name": "authentication",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "10e0c3e1-d760-ed11-94d8-7085c23ef572",
+			"name": "Edit_table_with_default",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [
+		{
+			"id": "a1c4dcac-756a-ed11-94da-7085c23ef572",
+			"name": "testing",
+			"description": null
+		}
+	],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [
+		{
+			"id": "c76cdf61-756a-ed11-94da-7085c23ef572",
+			"name": "test",
+			"description": null
+		}
+	],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "72a55dad-d760-ed11-94d8-7085c23ef572",
+			"name": "Connector for table_with_default",
+			"description": null
+		}
+	],
+	"events": [
+		{
+			"id": "dd644f8b-c96b-ed11-94da-7085c23ef572",
+			"name": "testing",
+			"description": null
+		}
+	]
+}

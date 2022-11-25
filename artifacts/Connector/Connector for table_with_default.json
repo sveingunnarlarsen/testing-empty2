@@ -1,0 +1,17 @@
+{
+	"id": "72a55dad-d760-ed11-94d8-7085c23ef572",
+	"createdAt": "2022-11-10T09:11:37.116Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "137b1257-d760-ed11-94d8-7085c23ef572",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Connector for table_with_default",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.11.10.1011",
+	"disabled": false,
+	"package": "94ab6f71-d560-ed11-94d8-7085c23ef572"
+}
